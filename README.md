@@ -12,11 +12,8 @@
 <br />
 
 ## Team Members.
-1.	Mr. Prakash singh [Team Leader].
-2.	Mr. Shubham singh
-3.	Mr. Ajeet Kumar.
-4.	Mr. Ramendra Kumar.
-5.  Mr. Param Raj.
+1.yashvi vastarpara
+
 
 <h2 align="center">🖥️ Tech Stack</h2>
 <h4 align="center">Frontend:</h4>
@@ -63,11 +60,7 @@ TimeCamp (clone) is a web-based application  to track the activity of computer u
 <br />
 
 ## Screens ( All screens are responsive )
-- Homepage / Landing Page
-- Pricing Listing Page 
-- Pricing Description Page
-- Bloging Page
-- DemoPage
+- Homepage
 - Login / Logout Page
 - Signup Page
 
@@ -77,19 +70,13 @@ TimeCamp (clone) is a web-based application  to track the activity of computer u
 
 ## 🚀 Features
 - Login and Signup User Account
-- Pricing Listing Page
-- Demo/calendly booking
-- Read a Blog
 <br />
 
 ## Glimpses of TimeCamp-Clone :
 
 
 <table>
-  
-![pricing1](https://user-images.githubusercontent.com/101583807/187647125-35358e8c-e5a1-4e1d-9ebe-c7a0e753a41d.png)
 
-![demo](https://user-images.githubusercontent.com/101583807/187647482-7971fe46-55ce-475b-8ba6-2e89143a55a5.png)
 
 ![Signup](https://user-images.githubusercontent.com/101583807/187647594-97838a92-b164-46f2-aedf-04df91765712.png)
  
