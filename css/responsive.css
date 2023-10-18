@@ -1,0 +1,63 @@
+/* =========================1199(laptop)========================= */
+
+@media screen and (max-width:1199px){
+    .banner img {
+        width: 100%;
+        padding-bottom: 5px;
+    }
+}
+/* =========================991(tablet)========================= */
+@media screen and (max-width:992px){
+    nav a {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        padding: 13px 19px;
+        font-size: 12px;
+    }
+}
+/* =========================767(phone)========================= */
+@media screen and (max-width:768px){
+    /* .banner img {
+        width: 113%;
+        padding-bottom: 5px;
+    }
+    .slider img {
+        width: 113%;
+        padding: 10px;
+        padding-top: 0px;
+    }
+    .cohal img {
+        width: 113%;
+        padding: 10px;
+        padding-top: 10px;
+    }
+    .spot-main {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 113%;
+        gap: 25px;
+        position: relative;
+    }
+    \.h3, h3 {
+        font-size: 21px;
+        font-weight: 700;
+        margin-left: 97px;
+    }
+    .get1-free img {
+        width: 113%;
+        padding: 10px;
+        padding-top: 10px;
+    }
+    .seller img {
+        width: 113%;
+        padding: 10px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+   .combo1 img {
+    width: 113%;
+    padding: 10px;
+    padding-top: 60px;
+ 
+} */
+}

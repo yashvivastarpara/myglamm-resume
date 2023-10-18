@@ -1,0 +1,403 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+img{
+  width: 100%;
+}
+.topheader {
+  background-color: #fff;
+  border-bottom: 1px solid #e0e0e0;
+  display: flex;
+  align-items: center;
+  padding: 1px 11px;
+}
+.main-logo {
+    display: flex;
+    margin-right: -464px;
+}
+#logo img {
+  width: 21%;
+}
+.logo-id h1 {
+  font-size: 25px;
+  margin-left: -52px;
+  margin-top: 41px;
+}
+#search {
+  flex-grow: 2;
+  color: aliceblue;
+}
+#search input[type="text"] {
+  width: 50%;
+  padding: 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+}
+
+#search button {
+  background-color: #f9a61b;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+#search button:hover {
+  background-color: #e08f15;
+}
+header {
+  background-color: #ffffff;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: start;
+}
+nav a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 14px 26px;
+  font-size: 13px;
+}
+.banner img {
+  width: 100%;
+  padding: 10px;
+  padding-top: 0px;
+}
+.slider img {
+  width: 100%;
+  padding: 10px;
+  padding-top: 0px;
+}
+.carouselExample {
+  width: 100%;
+}
+.w-100 {
+  width: 98.7% !important;
+  margin-inline-start: 8px;
+}
+.cohal img {
+  width: 100%;
+  padding: 2px;
+  padding-top: 10px;
+}
+.spotlight {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 40px;
+}
+\.h3,
+h3 {
+  font-size: 21px;
+  font-weight: 700;
+}
+.spot-main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  gap: 25px;
+  position: relative;
+}
+.white-line {
+  width: 100%;
+  background-color: #000000;
+  height: 200px;
+}
+
+.spot-main::after {
+  background-color: #fff;
+  width: 100%;
+}
+
+.margin {
+  margin: 10px;
+}
+
+.spot-main img {
+  width: 100%;
+}
+.spot1 {
+  width: 20%;
+}
+.get1-free img {
+  width: 100%;
+  padding: 10px;
+  padding-top: 10px;
+}
+.seller img {
+  width: 100%;
+  padding: 10px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.container {
+  height: auto;
+  width: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 5%;
+}#wrapper {
+  width: 100%;
+  overflow-x: scroll;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-end;
+  gap: 16px;
+  position: relative;
+  padding-top: 12px;
+  padding-left: 0px;
+  /* padding-right: 220px; */
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  /* scrollbar-width: none; */
+}
+
+.card {
+  scroll-snap-align: start;
+  flex-shrink: 0;
+  height: 460px;
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 24px 16px 16px 16px;
+  border: 1px solid black;
+  position: relative;
+  border-radius: 16px;
+  transition: 300ms linear;
+  background: white;
+}
+
+.card:hover {
+  transform: translatey(-6px);
+}
+
+.card .name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  position: absolute;
+  left: 16px;
+  top: 24px;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #111;
+}
+
+.card .title {
+  font-size: 2.4rem;
+  margin-top: 24px;
+  text-align: left;
+  text-transform: uppercase;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+}
+
+.card .description {
+  font-size: 1.3rem;
+  word-break: break-word;
+  width: 100%;
+  display: flex;
+  line-height: 160%;
+}
+
+.card .action {
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  cursor: pointer;
+  transition: 200ms linear;
+}
+
+.card .action:hover {
+  background: #000;
+}
+
+.card .action:hover svg,
+.card .action:hover svg path {
+  stroke: #fff;
+}
+.carousel-indicators {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin-right: 15%;
+  margin-bottom: 1rem;
+  margin-left: 15%;
+  list-style: none;
+  top: 100%;
+  background-color: black;
+}
+.carousel-indicators [data-bs-target] {
+  box-sizing: content-box;
+  flex: 0 1 auto;
+  width: 30px;
+  height: 3px;
+  padding: 0;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #000;
+  background-clip: padding-box;
+  border: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}
+.combo1 img {
+  width: 100%;
+  padding: 10px;
+  padding-top: 60px;
+  padding-bottom: 10px;
+}
+.login a{
+  display: flex;
+  font-size: 19px;
+  padding: 8px;
+  text-decoration: none;
+  color: #000;
+}
+.sign a{
+  display: flex;
+  font-size: 19px;
+  padding: 8px;
+  text-decoration: none;
+  color: #000;
+}
+
+.video-slider {
+  width: 100%;
+  overflow: hidden;
+}
+.video-slider-container {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+.video {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+/* Reset some default styles */
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the footer */
+footer {
+  background-color: #fff;
+  color: #000;
+  padding: 22px 0;
+}
+
+/* Style the footer content */
+.footer-content {
+  max-width: 1376px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.footer-section {
+  margin-right: 20px;
+}
+.footer-section h2 {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #00000054;
+}
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-section li {
+  margin-bottom: 5px;
+}
+.footer-section a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}
+.h5-tag h5{
+  font-size: 20px;
+  padding: 12px;
+}
+.search-bar {
+  display: flex;
+  align-items: start;
+  padding-left: 14px;
+}
+.search-bar input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  width: 25%;
+}
+.search-bar .search-button {
+  background-color: #000000;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+.linked img {
+  width: 20px;
+  margin-left: 14px;
+  margin-top: 6px;
+}
+.app p{
+   padding: 13px;
+}
+.app-store img {
+  width: 9%;
+  margin-top: -39px;
+  margin-left: 12px;
+}
+
+
+.lastdivvid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+
+
+/* CSS for responsive navigation */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+  }
+
+  nav a {
+    padding: 10px 0;
+  }
+}
+
